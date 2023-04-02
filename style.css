@@ -1,0 +1,64 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    background-color: aliceblue;
+height: 250px;
+padding: 40px;
+
+}
+.card-title{
+text-align: center;
+margin-bottom: 5px;
+font-family: fantasy;
+}
+.card-body{
+
+}
+
+.back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 80vh;
+}
+.remaining{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+.winning{
+color: green;
+font-weight: bolder;
+}
+.lost{
+    font-weight: bolder;
+    color: red;
+}
+.result{
+    color:red;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+}
+.end{
+    margin-top: 40px;
+    color: rgb(17, 0, 255);
+    font-size: large;
+    font-weight: bold;
+}
